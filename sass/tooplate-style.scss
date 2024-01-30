@@ -24,6 +24,13 @@ $button-color: #474559;
 $small-font-size: 14px;
 $link-font-size: 16px;
 
+$scale-1: 0.5rem;
+$scale-2: 1rem;
+$scale-3: 1.5rem;
+$scale-4: 2rem;
+$scale-5: 2.5rem;
+$scale-6: 3rem;
+
 @mixin transition-effect {
 	transition: all 0.4s ease;
 }
@@ -35,6 +42,30 @@ body {
 
 .full-screen {
 	padding: 8rem 0;
+}
+
+.gap-1 {
+	gap: $scale-1;
+}
+
+.gap-2 {
+	gap: $scale-2;
+}
+
+.gap-3 {
+	gap: $scale-3;
+}
+
+.gap-4 {
+	gap: $scale-4;
+}
+
+.gap-5 {
+	gap: $scale-5;
+}
+
+.gap-6 {
+	gap: $scale-6;
 }
 
 .small-text {
@@ -127,6 +158,9 @@ b, strong {
 	    	color: $text-white !important;
 	    }
     }
+	&.custom-btn-sm {
+		padding: 5px 15px;
+	}
 }
 
 
@@ -398,7 +432,7 @@ b, strong {
 .timeline-info {
 	display: inline-block;
 	vertical-align: top;
-	max-width: 432px;
+	// max-width: 432px;
 	margin-left: 6em;
 	small {
 		color: $button-color;
