@@ -21,6 +21,7 @@ $main-color: #28e110;
 $border-color: #f2f2f1;
 $button-color: #474559;
 
+
 $small-font-size: 14px;
 $link-font-size: 16px;
 
@@ -30,6 +31,26 @@ $scale-3: 1.5rem;
 $scale-4: 2rem;
 $scale-5: 2.5rem;
 $scale-6: 3rem;
+
+// Define a list of colors names
+$button-colors: (
+	vue: #42b883,
+	highchart: #46465c,
+	oracle: #C74634,
+	typescript: #3178c6,
+);
+
+@each $name, $color in $button-colors {
+  .btn-#{$name} {
+	border-color: $color;
+    background-color: $color !important;
+	color: $text-white;
+	&:hover {
+		background: $text-white !important;
+		color: $color !important;
+	}
+  }
+}
 
 @mixin transition-effect {
 	transition: all 0.4s ease;
@@ -42,6 +63,11 @@ body {
 
 .full-screen {
 	padding: 8rem 0;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .gap-1 {
@@ -146,6 +172,7 @@ b, strong {
     font-size: $small-font-size;
     line-height: normal;
     overflow: hidden;
+	flex-shrink: 0;
     @include transition-effect;
     &:hover {
     	color: $main-color;
@@ -160,6 +187,8 @@ b, strong {
     }
 	&.custom-btn-sm {
 		padding: 5px 15px;
+		font-size: .75rem;
+		line-height: 1.5;
 	}
 }
 

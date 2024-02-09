@@ -1,4 +1,44 @@
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+.btn-vue {
+  border-color: #42b883;
+  background-color: #42b883 !important;
+  color: #ffffff;
+}
+.btn-vue:hover {
+  background: #ffffff !important;
+  color: #42b883 !important;
+}
+
+.btn-highchart {
+  border-color: #46465c;
+  background-color: #46465c !important;
+  color: #ffffff;
+}
+.btn-highchart:hover {
+  background: #ffffff !important;
+  color: #46465c !important;
+}
+
+.btn-oracle {
+  border-color: #C74634;
+  background-color: #C74634 !important;
+  color: #ffffff;
+}
+.btn-oracle:hover {
+  background: #ffffff !important;
+  color: #C74634 !important;
+}
+
+.btn-typescript {
+  border-color: #3178c6;
+  background-color: #3178c6 !important;
+  color: #ffffff;
+}
+.btn-typescript:hover {
+  background: #ffffff !important;
+  color: #3178c6 !important;
+}
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
@@ -6,6 +46,11 @@ body {
 
 .full-screen {
   padding: 8rem 0;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .gap-1 {
@@ -104,6 +149,7 @@ b, strong {
   font-size: 14px;
   line-height: normal;
   overflow: hidden;
+  flex-shrink: 0;
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
@@ -119,6 +165,8 @@ b, strong {
 }
 .custom-btn.custom-btn-sm {
   padding: 5px 15px;
+  font-size: 0.75rem;
+  line-height: 1.5;
 }
 
 .animated {
