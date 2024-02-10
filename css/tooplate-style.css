@@ -89,6 +89,46 @@
   color: #c0765a !important;
 }
 
+.btn-fastapi {
+  border-color: #00ccb8;
+  background-color: #00ccb8 !important;
+  color: #ffffff;
+}
+.btn-fastapi:hover {
+  background: #ffffff !important;
+  color: #00ccb8 !important;
+}
+
+.btn-python {
+  border-color: #3776ab;
+  background-color: #3776ab !important;
+  color: #ffffff;
+}
+.btn-python:hover {
+  background: #ffffff !important;
+  color: #3776ab !important;
+}
+
+.btn-postgre {
+  border-color: #699eca;
+  background-color: #699eca !important;
+  color: #ffffff;
+}
+.btn-postgre:hover {
+  background: #ffffff !important;
+  color: #699eca !important;
+}
+
+.btn-sqlalchemy {
+  border-color: #d61f00;
+  background-color: #d61f00 !important;
+  color: #ffffff;
+}
+.btn-sqlalchemy:hover {
+  background: #ffffff !important;
+  color: #d61f00 !important;
+}
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
