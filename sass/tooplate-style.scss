@@ -50,6 +50,7 @@ $button-colors: (
 	minio: #c72c48,
 	laravel: #ff291b,
 	tailwind: #36bff8,
+	handsontable: #02339e,
 );
 
 @each $name, $color in $button-colors {

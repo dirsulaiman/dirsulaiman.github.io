@@ -159,6 +159,16 @@
   color: #36bff8 !important;
 }
 
+.btn-handsontable {
+  border-color: #02339e;
+  background-color: #02339e !important;
+  color: #ffffff;
+}
+.btn-handsontable:hover {
+  background: #ffffff !important;
+  color: #02339e !important;
+}
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
