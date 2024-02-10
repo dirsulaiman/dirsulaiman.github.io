@@ -100,13 +100,13 @@
 }
 
 .btn-python {
-  border-color: #3776ab;
-  background-color: #3776ab !important;
+  border-color: #fcd133;
+  background-color: #fcd133 !important;
   color: #ffffff;
 }
 .btn-python:hover {
   background: #ffffff !important;
-  color: #3776ab !important;
+  color: #fcd133 !important;
 }
 
 .btn-postgre {
@@ -127,6 +127,36 @@
 .btn-sqlalchemy:hover {
   background: #ffffff !important;
   color: #d61f00 !important;
+}
+
+.btn-minio {
+  border-color: #c72c48;
+  background-color: #c72c48 !important;
+  color: #ffffff;
+}
+.btn-minio:hover {
+  background: #ffffff !important;
+  color: #c72c48 !important;
+}
+
+.btn-laravel {
+  border-color: #ff291b;
+  background-color: #ff291b !important;
+  color: #ffffff;
+}
+.btn-laravel:hover {
+  background: #ffffff !important;
+  color: #ff291b !important;
+}
+
+.btn-tailwind {
+  border-color: #36bff8;
+  background-color: #36bff8 !important;
+  color: #ffffff;
+}
+.btn-tailwind:hover {
+  background: #ffffff !important;
+  color: #36bff8 !important;
 }
 
 body {
