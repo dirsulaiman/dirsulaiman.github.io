@@ -38,6 +38,11 @@ $button-colors: (
 	highchart: #46465c,
 	oracle: #C74634,
 	typescript: #3178c6,
+	gmaps: #ea4336,
+	docker: #1d63ed,
+	codeigniter: #dd4814,
+	php: #4f5b93,
+	mariadb: #c0765a,
 );
 
 @each $name, $color in $button-colors {

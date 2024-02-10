@@ -39,6 +39,56 @@
   color: #3178c6 !important;
 }
 
+.btn-gmaps {
+  border-color: #ea4336;
+  background-color: #ea4336 !important;
+  color: #ffffff;
+}
+.btn-gmaps:hover {
+  background: #ffffff !important;
+  color: #ea4336 !important;
+}
+
+.btn-docker {
+  border-color: #1d63ed;
+  background-color: #1d63ed !important;
+  color: #ffffff;
+}
+.btn-docker:hover {
+  background: #ffffff !important;
+  color: #1d63ed !important;
+}
+
+.btn-codeigniter {
+  border-color: #dd4814;
+  background-color: #dd4814 !important;
+  color: #ffffff;
+}
+.btn-codeigniter:hover {
+  background: #ffffff !important;
+  color: #dd4814 !important;
+}
+
+.btn-php {
+  border-color: #4f5b93;
+  background-color: #4f5b93 !important;
+  color: #ffffff;
+}
+.btn-php:hover {
+  background: #ffffff !important;
+  color: #4f5b93 !important;
+}
+
+.btn-mariadb {
+  border-color: #c0765a;
+  background-color: #c0765a !important;
+  color: #ffffff;
+}
+.btn-mariadb:hover {
+  background: #ffffff !important;
+  color: #c0765a !important;
+}
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
