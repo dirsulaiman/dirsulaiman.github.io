@@ -199,6 +199,36 @@
   color: #00A83F !important;
 }
 
+.btn-javascript {
+  border-color: #fcdc00;
+  background-color: #fcdc00 !important;
+  color: #ffffff;
+}
+.btn-javascript:hover {
+  background: #ffffff !important;
+  color: #fcdc00 !important;
+}
+
+.btn-goauth {
+  border-color: #009688;
+  background-color: #009688 !important;
+  color: #ffffff;
+}
+.btn-goauth:hover {
+  background: #ffffff !important;
+  color: #009688 !important;
+}
+
+.btn-mixpanel {
+  border-color: #7856ff;
+  background-color: #7856ff !important;
+  color: #ffffff;
+}
+.btn-mixpanel:hover {
+  background: #ffffff !important;
+  color: #7856ff !important;
+}
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
