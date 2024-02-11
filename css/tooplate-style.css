@@ -169,6 +169,36 @@
   color: #02339e !important;
 }
 
+.btn-mongodb {
+  border-color: #00684a;
+  background-color: #00684a !important;
+  color: #ffffff;
+}
+.btn-mongodb:hover {
+  background: #ffffff !important;
+  color: #00684a !important;
+}
+
+.btn-phpspreadsheet {
+  border-color: #57bc57;
+  background-color: #57bc57 !important;
+  color: #ffffff;
+}
+.btn-phpspreadsheet:hover {
+  background: #ffffff !important;
+  color: #57bc57 !important;
+}
+
+.btn-xlwings {
+  border-color: #00A83F;
+  background-color: #00A83F !important;
+  color: #ffffff;
+}
+.btn-xlwings:hover {
+  background: #ffffff !important;
+  color: #00A83F !important;
+}
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;

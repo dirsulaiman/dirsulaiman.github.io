@@ -51,6 +51,9 @@ $button-colors: (
 	laravel: #ff291b,
 	tailwind: #36bff8,
 	handsontable: #02339e,
+	mongodb: #00684a,
+	phpspreadsheet: #57bc57,
+	xlwings: #00A83F,
 );
 
 @each $name, $color in $button-colors {
