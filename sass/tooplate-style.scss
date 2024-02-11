@@ -34,6 +34,7 @@ $scale-6: 3rem;
 
 // Define a list of colors names
 $button-colors: (
+	primary: $main-color,
 	vue: #42b883,
 	highchart: #46465c,
 	oracle: #C74634,
@@ -57,11 +58,13 @@ $button-colors: (
 	javascript: #fcdc00,
 	goauth: #009688,
 	mixpanel: #7856ff,
+	dotnet: #ac99ea,
+	csharp: #c273d9,
 );
 
 @each $name, $color in $button-colors {
   .btn-#{$name} {
-	border-color: $color;
+	border-color: $color !important;
     background-color: $color !important;
 	color: $text-white;
 	&:hover {

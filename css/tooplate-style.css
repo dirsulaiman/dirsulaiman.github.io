@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+.btn-primary {
+  border-color: #28e110 !important;
+  background-color: #28e110 !important;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background: #ffffff !important;
+  color: #28e110 !important;
+}
+
 .btn-vue {
-  border-color: #42b883;
+  border-color: #42b883 !important;
   background-color: #42b883 !important;
   color: #ffffff;
 }
@@ -10,7 +20,7 @@
 }
 
 .btn-highchart {
-  border-color: #46465c;
+  border-color: #46465c !important;
   background-color: #46465c !important;
   color: #ffffff;
 }
@@ -20,7 +30,7 @@
 }
 
 .btn-oracle {
-  border-color: #C74634;
+  border-color: #C74634 !important;
   background-color: #C74634 !important;
   color: #ffffff;
 }
@@ -30,7 +40,7 @@
 }
 
 .btn-typescript {
-  border-color: #3178c6;
+  border-color: #3178c6 !important;
   background-color: #3178c6 !important;
   color: #ffffff;
 }
@@ -40,7 +50,7 @@
 }
 
 .btn-gmaps {
-  border-color: #ea4336;
+  border-color: #ea4336 !important;
   background-color: #ea4336 !important;
   color: #ffffff;
 }
@@ -50,7 +60,7 @@
 }
 
 .btn-docker {
-  border-color: #1d63ed;
+  border-color: #1d63ed !important;
   background-color: #1d63ed !important;
   color: #ffffff;
 }
@@ -60,7 +70,7 @@
 }
 
 .btn-codeigniter {
-  border-color: #dd4814;
+  border-color: #dd4814 !important;
   background-color: #dd4814 !important;
   color: #ffffff;
 }
@@ -70,7 +80,7 @@
 }
 
 .btn-php {
-  border-color: #4f5b93;
+  border-color: #4f5b93 !important;
   background-color: #4f5b93 !important;
   color: #ffffff;
 }
@@ -80,7 +90,7 @@
 }
 
 .btn-mariadb {
-  border-color: #c0765a;
+  border-color: #c0765a !important;
   background-color: #c0765a !important;
   color: #ffffff;
 }
@@ -90,7 +100,7 @@
 }
 
 .btn-fastapi {
-  border-color: #00ccb8;
+  border-color: #00ccb8 !important;
   background-color: #00ccb8 !important;
   color: #ffffff;
 }
@@ -100,7 +110,7 @@
 }
 
 .btn-python {
-  border-color: #fcd133;
+  border-color: #fcd133 !important;
   background-color: #fcd133 !important;
   color: #ffffff;
 }
@@ -110,7 +120,7 @@
 }
 
 .btn-postgre {
-  border-color: #699eca;
+  border-color: #699eca !important;
   background-color: #699eca !important;
   color: #ffffff;
 }
@@ -120,7 +130,7 @@
 }
 
 .btn-sqlalchemy {
-  border-color: #d61f00;
+  border-color: #d61f00 !important;
   background-color: #d61f00 !important;
   color: #ffffff;
 }
@@ -130,7 +140,7 @@
 }
 
 .btn-minio {
-  border-color: #c72c48;
+  border-color: #c72c48 !important;
   background-color: #c72c48 !important;
   color: #ffffff;
 }
@@ -140,7 +150,7 @@
 }
 
 .btn-laravel {
-  border-color: #ff291b;
+  border-color: #ff291b !important;
   background-color: #ff291b !important;
   color: #ffffff;
 }
@@ -150,7 +160,7 @@
 }
 
 .btn-tailwind {
-  border-color: #36bff8;
+  border-color: #36bff8 !important;
   background-color: #36bff8 !important;
   color: #ffffff;
 }
@@ -160,7 +170,7 @@
 }
 
 .btn-handsontable {
-  border-color: #02339e;
+  border-color: #02339e !important;
   background-color: #02339e !important;
   color: #ffffff;
 }
@@ -170,7 +180,7 @@
 }
 
 .btn-mongodb {
-  border-color: #00684a;
+  border-color: #00684a !important;
   background-color: #00684a !important;
   color: #ffffff;
 }
@@ -180,7 +190,7 @@
 }
 
 .btn-phpspreadsheet {
-  border-color: #57bc57;
+  border-color: #57bc57 !important;
   background-color: #57bc57 !important;
   color: #ffffff;
 }
@@ -190,7 +200,7 @@
 }
 
 .btn-xlwings {
-  border-color: #00A83F;
+  border-color: #00A83F !important;
   background-color: #00A83F !important;
   color: #ffffff;
 }
@@ -200,7 +210,7 @@
 }
 
 .btn-javascript {
-  border-color: #fcdc00;
+  border-color: #fcdc00 !important;
   background-color: #fcdc00 !important;
   color: #ffffff;
 }
@@ -210,7 +220,7 @@
 }
 
 .btn-goauth {
-  border-color: #009688;
+  border-color: #009688 !important;
   background-color: #009688 !important;
   color: #ffffff;
 }
@@ -220,13 +230,33 @@
 }
 
 .btn-mixpanel {
-  border-color: #7856ff;
+  border-color: #7856ff !important;
   background-color: #7856ff !important;
   color: #ffffff;
 }
 .btn-mixpanel:hover {
   background: #ffffff !important;
   color: #7856ff !important;
+}
+
+.btn-dotnet {
+  border-color: #ac99ea !important;
+  background-color: #ac99ea !important;
+  color: #ffffff;
+}
+.btn-dotnet:hover {
+  background: #ffffff !important;
+  color: #ac99ea !important;
+}
+
+.btn-csharp {
+  border-color: #c273d9 !important;
+  background-color: #c273d9 !important;
+  color: #ffffff;
+}
+.btn-csharp:hover {
+  background: #ffffff !important;
+  color: #c273d9 !important;
 }
 
 body {
