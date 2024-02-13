@@ -60,6 +60,7 @@ $button-colors: (
 	mixpanel: #7856ff,
 	dotnet: #ac99ea,
 	csharp: #c273d9,
+	chartjs: #fe777b,
 );
 
 @each $name, $color in $button-colors {

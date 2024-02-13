@@ -259,6 +259,16 @@
   color: #c273d9 !important;
 }
 
+.btn-chartjs {
+  border-color: #fe777b !important;
+  background-color: #fe777b !important;
+  color: #ffffff;
+}
+.btn-chartjs:hover {
+  background: #ffffff !important;
+  color: #fe777b !important;
+}
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
