@@ -1,0 +1,22 @@
+{
+  "name": "sulaeman-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio page",
+  "main": "index.html",
+  "scripts": {
+    "format": "npx prettier --write index.html sass/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirsulaiman/dirsulaiman.github.io.git"
+  },
+  "author": "Sulaeman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirsulaiman/dirsulaiman.github.io/issues"
+  },
+  "homepage": "https://dirsulaiman.github.io",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}
