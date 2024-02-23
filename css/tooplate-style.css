@@ -377,6 +377,44 @@
   color: #fe777b !important;
 }
 
+.btn-linkedin {
+  border-color: #599adf !important;
+  background-color: #599adf !important;
+  color: #ffffff;
+}
+.btn-linkedin:hover {
+  background: #ffffff !important;
+  color: #599adf !important;
+}
+
+.text-linkedin {
+  color: #599adf !important;
+}
+
+.btn-github {
+  border-color: #000 !important;
+  background-color: #000 !important;
+  color: #ffffff;
+}
+.btn-github:hover {
+  background: #ffffff !important;
+  color: #000 !important;
+}
+
+.text-github {
+  color: #000 !important;
+}
+
+.btn-instagram {
+  border-color: #d6249f !important;
+  background: #d6249f !important;
+  background: radial-gradient(circle at 0% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
+}
+.btn-instagram:hover {
+  background: #ffffff !important;
+  color: #d6249f !important;
+}
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;

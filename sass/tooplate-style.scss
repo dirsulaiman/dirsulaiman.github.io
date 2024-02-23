@@ -59,6 +59,8 @@ $button-colors: (
   dotnet: #ac99ea,
   csharp: #c273d9,
   chartjs: #fe777b,
+  linkedin: #599adf,
+  github: #000,
 );
 
 @each $name, $color in $button-colors {
@@ -74,6 +76,16 @@ $button-colors: (
 
   .text-#{$name} {
     color: $color !important;
+  }
+}
+
+.btn-instagram {
+  border-color: #d6249f !important;
+  background: #d6249f !important;
+  background: radial-gradient(circle at 0% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+  &:hover {
+    background: $text-white !important;
+    color: #d6249f !important;
   }
 }
 
