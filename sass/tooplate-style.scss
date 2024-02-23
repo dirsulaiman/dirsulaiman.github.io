@@ -82,7 +82,14 @@ $button-colors: (
 .btn-instagram {
   border-color: #d6249f !important;
   background: #d6249f !important;
-  background: radial-gradient(circle at 0% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+  background: radial-gradient(
+    circle at 0% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  ) !important;
   &:hover {
     background: $text-white !important;
     color: #d6249f !important;
@@ -138,6 +145,10 @@ body {
   padding: 8px 16px;
   border-radius: 50px;
   letter-spacing: 0.2px;
+}
+
+.text-lg {
+  font-size: 2rem;
 }
 
 ul {

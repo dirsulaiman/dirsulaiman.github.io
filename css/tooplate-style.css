@@ -462,6 +462,10 @@ body {
   letter-spacing: 0.2px;
 }
 
+.text-lg {
+  font-size: 2rem;
+}
+
 ul {
   margin: 0;
   padding: 0;
