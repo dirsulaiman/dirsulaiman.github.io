@@ -4,6 +4,7 @@
   "description": "portfolio page",
   "main": "index.html",
   "scripts": {
+    "build:sass": "sass sass/tooplate-style.scss css/tooplate-style.css",
     "format": "npx prettier --write index.html sass/"
   },
   "repository": {
