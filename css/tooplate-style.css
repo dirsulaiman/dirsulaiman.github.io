@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
-.btn-primary {
+.btn-main {
   border-color: #28e110 !important;
   background-color: #28e110 !important;
   color: #ffffff;
 }
-.btn-primary:hover {
+.btn-main:hover {
   background: #ffffff !important;
+  color: #28e110 !important;
+}
+
+.text-main {
   color: #28e110 !important;
 }
 
@@ -19,6 +23,10 @@
   color: #42b883 !important;
 }
 
+.text-vue {
+  color: #42b883 !important;
+}
+
 .btn-highchart {
   border-color: #46465c !important;
   background-color: #46465c !important;
@@ -29,14 +37,22 @@
   color: #46465c !important;
 }
 
+.text-highchart {
+  color: #46465c !important;
+}
+
 .btn-oracle {
-  border-color: #C74634 !important;
-  background-color: #C74634 !important;
+  border-color: #c74634 !important;
+  background-color: #c74634 !important;
   color: #ffffff;
 }
 .btn-oracle:hover {
   background: #ffffff !important;
-  color: #C74634 !important;
+  color: #c74634 !important;
+}
+
+.text-oracle {
+  color: #c74634 !important;
 }
 
 .btn-typescript {
@@ -46,6 +62,10 @@
 }
 .btn-typescript:hover {
   background: #ffffff !important;
+  color: #3178c6 !important;
+}
+
+.text-typescript {
   color: #3178c6 !important;
 }
 
@@ -59,6 +79,10 @@
   color: #ea4336 !important;
 }
 
+.text-gmaps {
+  color: #ea4336 !important;
+}
+
 .btn-docker {
   border-color: #1d63ed !important;
   background-color: #1d63ed !important;
@@ -66,6 +90,10 @@
 }
 .btn-docker:hover {
   background: #ffffff !important;
+  color: #1d63ed !important;
+}
+
+.text-docker {
   color: #1d63ed !important;
 }
 
@@ -79,6 +107,10 @@
   color: #dd4814 !important;
 }
 
+.text-codeigniter {
+  color: #dd4814 !important;
+}
+
 .btn-php {
   border-color: #4f5b93 !important;
   background-color: #4f5b93 !important;
@@ -86,6 +118,10 @@
 }
 .btn-php:hover {
   background: #ffffff !important;
+  color: #4f5b93 !important;
+}
+
+.text-php {
   color: #4f5b93 !important;
 }
 
@@ -99,6 +135,10 @@
   color: #c0765a !important;
 }
 
+.text-mariadb {
+  color: #c0765a !important;
+}
+
 .btn-fastapi {
   border-color: #00ccb8 !important;
   background-color: #00ccb8 !important;
@@ -106,6 +146,10 @@
 }
 .btn-fastapi:hover {
   background: #ffffff !important;
+  color: #00ccb8 !important;
+}
+
+.text-fastapi {
   color: #00ccb8 !important;
 }
 
@@ -119,6 +163,10 @@
   color: #fcd133 !important;
 }
 
+.text-python {
+  color: #fcd133 !important;
+}
+
 .btn-postgre {
   border-color: #699eca !important;
   background-color: #699eca !important;
@@ -126,6 +174,10 @@
 }
 .btn-postgre:hover {
   background: #ffffff !important;
+  color: #699eca !important;
+}
+
+.text-postgre {
   color: #699eca !important;
 }
 
@@ -139,6 +191,10 @@
   color: #d61f00 !important;
 }
 
+.text-sqlalchemy {
+  color: #d61f00 !important;
+}
+
 .btn-minio {
   border-color: #c72c48 !important;
   background-color: #c72c48 !important;
@@ -146,6 +202,10 @@
 }
 .btn-minio:hover {
   background: #ffffff !important;
+  color: #c72c48 !important;
+}
+
+.text-minio {
   color: #c72c48 !important;
 }
 
@@ -159,6 +219,10 @@
   color: #ff291b !important;
 }
 
+.text-laravel {
+  color: #ff291b !important;
+}
+
 .btn-tailwind {
   border-color: #36bff8 !important;
   background-color: #36bff8 !important;
@@ -166,6 +230,10 @@
 }
 .btn-tailwind:hover {
   background: #ffffff !important;
+  color: #36bff8 !important;
+}
+
+.text-tailwind {
   color: #36bff8 !important;
 }
 
@@ -179,6 +247,10 @@
   color: #02339e !important;
 }
 
+.text-handsontable {
+  color: #02339e !important;
+}
+
 .btn-mongodb {
   border-color: #00684a !important;
   background-color: #00684a !important;
@@ -186,6 +258,10 @@
 }
 .btn-mongodb:hover {
   background: #ffffff !important;
+  color: #00684a !important;
+}
+
+.text-mongodb {
   color: #00684a !important;
 }
 
@@ -199,14 +275,22 @@
   color: #57bc57 !important;
 }
 
+.text-phpspreadsheet {
+  color: #57bc57 !important;
+}
+
 .btn-xlwings {
-  border-color: #00A83F !important;
-  background-color: #00A83F !important;
+  border-color: #00a83f !important;
+  background-color: #00a83f !important;
   color: #ffffff;
 }
 .btn-xlwings:hover {
   background: #ffffff !important;
-  color: #00A83F !important;
+  color: #00a83f !important;
+}
+
+.text-xlwings {
+  color: #00a83f !important;
 }
 
 .btn-javascript {
@@ -216,6 +300,10 @@
 }
 .btn-javascript:hover {
   background: #ffffff !important;
+  color: #fcdc00 !important;
+}
+
+.text-javascript {
   color: #fcdc00 !important;
 }
 
@@ -229,6 +317,10 @@
   color: #009688 !important;
 }
 
+.text-goauth {
+  color: #009688 !important;
+}
+
 .btn-mixpanel {
   border-color: #7856ff !important;
   background-color: #7856ff !important;
@@ -236,6 +328,10 @@
 }
 .btn-mixpanel:hover {
   background: #ffffff !important;
+  color: #7856ff !important;
+}
+
+.text-mixpanel {
   color: #7856ff !important;
 }
 
@@ -249,6 +345,10 @@
   color: #ac99ea !important;
 }
 
+.text-dotnet {
+  color: #ac99ea !important;
+}
+
 .btn-csharp {
   border-color: #c273d9 !important;
   background-color: #c273d9 !important;
@@ -259,6 +359,10 @@
   color: #c273d9 !important;
 }
 
+.text-csharp {
+  color: #c273d9 !important;
+}
+
 .btn-chartjs {
   border-color: #fe777b !important;
   background-color: #fe777b !important;
@@ -266,6 +370,10 @@
 }
 .btn-chartjs:hover {
   background: #ffffff !important;
+  color: #fe777b !important;
+}
+
+.text-chartjs {
   color: #fe777b !important;
 }
 
@@ -344,7 +452,12 @@ p {
   color: #5b5b5b;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
   letter-spacing: -1px;
 }
@@ -366,7 +479,8 @@ h3 {
 }
 
 h3,
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
 
@@ -604,7 +718,12 @@ b, strong {
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
 .dark-mode .color-mode {
   color: #ffffff;
 }
@@ -746,7 +865,8 @@ b, strong {
   position: relative;
   bottom: 8px;
 }
-.contact-info p, .contact-info a {
+.contact-info p,
+.contact-info a {
   color: #f7f3f3;
 }
 

@@ -32,7 +32,7 @@ $scale-6: 3rem;
 
 // Define a list of colors names
 $button-colors: (
-  primary: $main-color,
+  main: $main-color,
   vue: #42b883,
   highchart: #46465c,
   oracle: #c74634,
@@ -70,6 +70,10 @@ $button-colors: (
       background: $text-white !important;
       color: $color !important;
     }
+  }
+
+  .text-#{$name} {
+    color: $color !important;
   }
 }
 
